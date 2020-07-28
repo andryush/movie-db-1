@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs-inner {
+    width: 73.4%;
+}
+
+.empty {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.d-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    grid-auto-rows: 1fr;
+}
+
+.will-watch {
+    width: 20%;
+    border: 2px solid #28A743;
+    box-shadow: -5px 10px 8px #888888;
+}
+
+.will-watch p {
+    margin: 0;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .will-watch-nested {
+    position: fixed;
+    width: 20%;
+    text-align: center;
+} */

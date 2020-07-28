@@ -1,0 +1,60 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #28A743;
+    box-shadow: 5px 10px 8px #888888;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.rating {
+    font-weight: 400;
+}
+
+
+.poster {
+    width: 100%;
+}
+
+.delete,
+.will-watch-btn,
+.will-watch-btn-active {
+    width: 50%;
+    display: block;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: 5px 5px 8px #888888;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #C82332;
+    color: white;
+    border-color: #C82332;
+}
+
+.will-watch-btn {
+    background-color: #0269D9;
+    border-color: #0269D9;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #CC3737;
+}
+
+.will-watch-btn:hover {
+    background-color: #1772D3;
+}
+
+.will-watch-btn-active {
+    background-color: #28A744;
+    color: white;
+    border-color: #28A744;
+}

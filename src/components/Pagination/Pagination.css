@@ -1,0 +1,15 @@
+.pagination {
+    width: 73%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    margin: 10px;
+}
+
+.total-pages {
+    width: 73%;
+    display: flex;
+    justify-content: center;
+}
