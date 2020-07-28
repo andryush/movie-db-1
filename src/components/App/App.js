@@ -129,11 +129,6 @@ class App extends React.Component {
     }
   }
 
-  justForTest = (param) => {
-    console.log(param.id);
-    console.log('clicked');
-  }
-
   render() {
     console.log("render");
     return (
